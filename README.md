@@ -87,7 +87,7 @@ The API will be running at `http://localhost:5000`.
 
 ### **3. Get All Users (Protected Route)**
 **GET** `/api/users`
-Requires authentication (JWT token in HTTP-only cookie).
+Requires authentication.
 User must be Logged In.
 
 ### **4. Get User by ID**
