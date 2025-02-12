@@ -75,7 +75,6 @@ The API will be running at `http://localhost:5000`.
   "password": "password123"
 }
 ```
-_Response:_ `201 Created`
 
 ### **2. Login User**
 **POST** `/api/users/login`
@@ -85,7 +84,6 @@ _Response:_ `201 Created`
   "password": "password123"
 }
 ```
-_Response:_ JWT Token stored in HTTP-only cookie.
 
 ### **3. Get All Users (Protected Route)**
 **GET** `/api/users`
