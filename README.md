@@ -62,7 +62,7 @@ CREATE TABLE users (
 ```sh
 npm start
 ```
-The API will be running at `http://localhost:5000`.
+The API will be running at `http://localhost:3000`.
 
 ## API Endpoints
 
